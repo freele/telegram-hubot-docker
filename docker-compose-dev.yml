@@ -1,0 +1,9 @@
+version: '2'
+services:
+  hubot:
+    volumes:
+      - ./scripts:/src/scripts
+      - ./utils:/src/utils
+    environment:
+      - NODE_DEBUG=1
+  

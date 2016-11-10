@@ -1,0 +1,26 @@
+{
+  "name": "makeomatic-hubot",
+  "version": "0.2.0",
+  "author": "Vitaly Aminev <v@makeomatic.ru>",
+  "description": "ci/cd helper",
+  "scripts": {
+    "start": "bin/hubot -a adapter-telegram",
+    "help": "bin/hubot-help"
+  },
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "hubot": "^2.19.0",
+    "hubot-adapter-telegram": "*",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-help": "^0.2.0",
+    "hubot-redis-brain": "0.0.3"
+  },
+  "devDependencies": {
+    "json": "^9.0.4",
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.8.0",
+    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-promise": "^2.0.1"
+  }
+}
